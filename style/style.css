@@ -29,11 +29,17 @@ body {
     color: #1f2937;
     text-align: center;
 }
-.section , .section-btn{
+  .section-btn{
     background-color: #f9faf8;
     color: #3882f6;
     padding: 45px;
     align-items: center;
+}
+#section{
+    background-color: #f9faf8;
+    padding: 110px;
+    align-items: center;
+
 }
 header{
 
@@ -44,7 +50,7 @@ header,footer{
     color:white;
     display: flex;
     justify-content: space-evenly;
-    height:200px;
+    height:300px;
     text-align: center;
     align-items: center;
 }
@@ -84,5 +90,16 @@ head-header-contant{
 
 }
 button{
-    color: #3882f6;
+    color: #f9faf8;
+    background-color:#3882f6 ;
+    border-radius: 5px;
+}
+.placeholder{
+    margin-left: 80px;
+    opacity:90%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+p.placeholder{
+    color: #000;
 }
