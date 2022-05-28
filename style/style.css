@@ -1,0 +1,88 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
+/* @font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto);
+} */
+
+* {
+    padding:0.03rem;
+    margin: 0.03rem;
+} 
+body {
+    width: 100%;
+}
+.head div p {
+    margin-right: 350px;
+}
+#header-logo{
+    font-weight: 24px;
+    color: #f9faf8;
+
+}
+#details-box{
+    display: flex;
+    justify-content: space-around;
+}
+#section-header{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.section , .section-btn{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 45px;
+    align-items: center;
+}
+header{
+
+    flex-direction:column;
+}
+header,footer{
+    background-color: #1f2937;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    height:200px;
+    text-align: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    justify-content:space-around;
+
+}
+h1{
+    font-weight: 48px;
+    color: #f9faf8;
+}
+.header-contant{
+    display: flex;
+    justify-content:space-around;
+}
+head-header-contant{
+    text-align: left;
+}
+.container{
+    padding: 200px;
+    align-items: center;
+    background-color: #e5e7eb;    
+    
+}
+#Quote{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+
+}
+.action{
+    padding: 200px;
+    background-color: #3882f6;
+    border-radius:30px;
+    margin :100px 40px;
+
+}
+button{
+    color: #3882f6;
+}
