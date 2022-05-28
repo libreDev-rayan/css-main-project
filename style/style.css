@@ -30,8 +30,8 @@ body {
     text-align: center;
 }
 .section , .section-btn{
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: #f9faf8;
+    color: #3882f6;
     padding: 45px;
     align-items: center;
 }
